@@ -1,1 +1,1 @@
-# 4th-Sem-Study-Material
+# du-CS-4th-sem-Algorithms
