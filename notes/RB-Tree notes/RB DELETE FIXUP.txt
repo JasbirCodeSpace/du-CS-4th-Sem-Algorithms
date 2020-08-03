@@ -1,0 +1,27 @@
+﻿RB DELETE FIXUP 
+while( x is not root  and x.colour = black )
+if x is left child of its parent then
+w = x.p.right
+case 1-
+if x's sibling w is red 
+w.colour = black and x.p.colour = red 
+Left rotate (x.p) 
+new w = x.p
+CASE 2,3,4 OCCUR WHEN NODE W IS BLACK AND THEY ARE DISTINGUISHED BY THE W'S CHILDREN 
+case 2 -
+When w's both children are black 
+W.colour = red 
+new x = x.p
+Case 3- 
+W's left child is red and right child is black 
+W.colour = red 
+Right rotate (w)
+New w = x.p.right 
+Case 4 - 
+When w's right child is red 
+W.p.colour = x.p.colour 
+x.p.colour = black 
+W.right.colour = black
+Left rotate (x.p)
+x=root 
+ELSE ( WHEN X IS RIGHT CHILD OF X.P)

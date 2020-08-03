@@ -1,0 +1,22 @@
+﻿Insert fixup-
+While - If z's parent is red 
+•If z's parent is left child of its parent 
+Then w= z.p.p.right (uncle of z)
+Case 1 
+w.colour = red  then 
+Z.p black, w black and z.p.p(grandparent) red 
+new z is z's grandparent 
+Case 2
+w.colour = black 
+If z is right child of its parent then 
+new z = z.p
+Left rotate (z)
+Case 3 
+w.colour= black 
+if z is left child of its parent then 
+Z.p black and z.p.p red 
+Right rotate (z.p.p)
+Else 【z.p is right child of z.p.p】 
+                  w = z.p.p.left 
+
+
