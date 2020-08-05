@@ -7,7 +7,7 @@
     <a href="https://github.com/JasbirCodeSpace/du-CS-4th-Sem-Algorithms"><strong>Explore the directory »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/JasbirCodeSpace/Covid-19-Tracker/issues">Request Resouce</a>
+    <a href="https://github.com/JasbirCodeSpace/du-CS-4th-Sem-Algorithms/issues">Request Resouce</a>
   </p>
 </p>
 
